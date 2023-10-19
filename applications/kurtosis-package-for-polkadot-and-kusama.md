@@ -4,7 +4,6 @@
 - **Payment Address:** ETH (USDC) 0x3de51De78742De3a7aD4F65ae0B508535dA22489
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
 
-
 ## Project Overview :page_facing_up:
 
 ### Overview
@@ -14,10 +13,12 @@ This project aims to implement environment definitions through [Kurtosis package
 ### Project Details
 
 #### Technologies
+
 - [Kurtosis](https://docs.kurtosis.com/): Kurtosis is a platform for packaging and launching environments of containerized services ("distributed applications") with a focus on approachability for the average developer. What Docker did for shipping binaries, Kurtosis aims to do even better for distributed applications.
 - [Starlark](https://docs.kurtosis.com/starlark-reference): Starlark is a dialect of Python intended for use as a configuration language. Starlark is used as DSL for creating environment definitions in Kurtosis which helps in sharing and reusing distributed application components.
 
-#### Supporting Implementations
+#### Supporting Implementations hhh
+
 - [D.I.V.E](https://github.com/HugoByte/DIVE): A powerful utility designed to streamline the entire process of node setup, network configurations, smart contract build and deployment currently supporting Ethereum, Cosmos and ICON.
 - [POC](https://github.com/HugoByte/PoCs/tree/master/polkadot-kurtosis-poc): A minimal kurtosis package able to deploy a single node of westend and local relay chain with single parachain.
 
@@ -29,7 +30,6 @@ This project aims to implement environment definitions through [Kurtosis package
 | 2      | Package for Chopstick                                                                          |
 | 3      | Kurtosis provider for Zombienet                                                                |
 | 4      | Explorer package                                                                               |
-
 
 ### Ecosystem Fit
 
@@ -46,13 +46,14 @@ Moreover, the dynamic setup of nodes can be a source of errors. For instance, pa
 By implementing Kurtosis, errors during deployment can be reduced, and it becomes easier to set up environments for development and testing purposes. It streamlines the entire process, allowing developers to focus on other essential tasks and enhancing the overall user experience.
 
 #### Why use Kurtosis?
+
 Developers usually set up dynamic environments with a free-form scripting language like bash or Python, interacting with the Docker CLI or Docker Compose. Kurtosis is designed to make these setups easier to maintain and reuse in different test scenarios.
 
 In Kurtosis, test environments have these properties:
 
 - Environment-level portability: the entire test environment always runs the same way, regardless of the host machine.  
 - Composability: environments can be composed and connected without needing to know the inner details of each setup.  
-- Parameterizability: environments can be parameterized, so that they’re easy to modify for use across different test scenarios.    
+- Parameterizability: environments can be parameterized, so that they’re easy to modify for use across different test scenarios.
 
 Kurtosis aims to bring DevOps back, by providing the developer with a single platform for prototyping, testing, debugging, deploying to Prod, and observing the live system.
 
@@ -63,15 +64,15 @@ Kurtosis aims to bring DevOps back, by providing the developer with a single pla
 - Muhammed Irfan K (Leader)
 - Siddh Jain (Project Manager)
 - Shreyas K S (Lead Developer)
-- Shanith K K (Developer)
-- Abhishek Harde (Developer)
+- Shanith K K (System Developer)
+- Abhishek Harde (System Developer)
 - Hemanth Kumar (Senior Tester)
 
 ### Contact
 
 - **Contact Name:** Muhammed Irfan K
-- **Contact Email:** muhammedirfan@hugobyte.com
-- **Website:** https://hugobyte.com
+- **Contact Email:** <muhammedirfan@hugobyte.com>
+- **Website:** <https://hugobyte.com>
 
 ### Legal Structure
 
@@ -82,28 +83,46 @@ Kurtosis aims to bring DevOps back, by providing the developer with a single pla
 
 HugoByte is deeply rooted in the Web 3 domain with strong experience in creating bridges and web 3 development utilities.
 
+- ****Muhammed Irfan - Principle Engineer****
+As a Senior Principal Engineer and CTO at Hugobyte with over 7 years of invaluable experience, Muhammed Irfan possesses exceptional expertise in multiple domains such as Blockchain and AI. He is also highly proficient in designing state-of-the-art architecture and infrastructure, as well as mastering full-stack development.
+
+- **Shreyas K S - Senior Developer**
+As a Senior Developer with over 4 years of experience in Rust and GoLang, he is also knowledgeable in Starlark, Python, C#, and C. Core developer and Tech Lead for implementation of kurtosis package for Icon, ETH ,hardhat and BTP.
+
+- **Abhishek Harde - System Developer**
+As a System Developer with over 2+ years of experience in Rust and GoLang, he is also knowledgeable in Starlark, C# and C++. Core developer for implementation of kurtosis package for Archway, Neuton and IBC.
+
+- **Shanith K K - System Developer**
+As a System Developer with over 2+ years of experience in Rust and Javascript, he is also knowledgeable in Python and Starlark. Core developer for Aurras MVP Phase 2.
+
+- **Hemanth Kumar - Senior Tester**
+He is senior tester with over 8 years of experience in testing, skilled in manual, automation, end-to-end, and integration testing. Additionally, they are proficient in Golang, Java, and Python.
+
 Previously funded Web3 Foundation grant:
+
 - Aurras MVP  
   HugoByte AI Labs Private limited
 
 ### Team Code Repos
 
-- https://github.com/HugoByte
-- https://github.com/HugoByte/DIVE
-- https://github.com/HugoByte?q=aurras
-- https://github.com/MuhammedIrfan
-- https://github.com/Mr-Nobody21
-- https://github.com/shreyasbhat0
-- https://github.com/shanithkk
-- https://github.com/abhiyana
-- https://github.com/hemz10
-
+- <https://github.com/HugoByte>
+- <https://github.com/HugoByte/DIVE>
+- <https://github.com/HugoByte?q=aurras>
+- <https://github.com/MuhammedIrfan>
+- <https://github.com/Mr-Nobody21>
+- <https://github.com/shreyasbhat0>
+- <https://github.com/shanithkk>
+- <https://github.com/abhiyana>
+- <https://github.com/hemz10>
 
 ### Team LinkedIn Profiles
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
+- <https://www.linkedin.com/in/muhammed-irfan-k/>
+- <https://www.linkedin.com/in/siddh-jain/>
+- <https://www.linkedin.com/in/shreyas-ks/>
+- <https://www.linkedin.com/in/shanith-k-k-09378988/>
+- <https://www.linkedin.com/in/abhishek-harde-056a2a1a8/>
+- <https://www.linkedin.com/in/the-hemanth-profile/>
 
 ## Development Status :open_book:
 
@@ -116,14 +135,13 @@ Previously funded Web3 Foundation grant:
 
 - **Total Estimated Duration:**
 - **Full-Time Equivalent (FTE):**
-- **Total Costs:** 
+- **Total Costs:**
 
 ### Milestone 1 — Kurtosis Package for Localnet, Testnet and Mainnet setup
 
-- **Estimated duration:**
-- **FTE:**
-- **Costs:** 
-
+- **Estimated duration:** 4 weeks
+- **FTE:** 3
+- **Costs:** 17,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -138,13 +156,11 @@ Previously funded Web3 Foundation grant:
 | 5. | Parachain package | This package contains definitions for deploying specified parachains. |
 | 6. | Parachain Network Setup (Relay + Parachain + Validator + RPC + Collator Node) | This configuration targets to create a full fledge Parachain network. |
 
+### Milestone 2  — Kurtosis Package for chopstick, Explorer, Prometheus, Grafana and Integration with Zombienet
 
-### Milestone 2  — Kurtosis Package for chopstick, Explorer, Prometheus, Grafana and Integration with Zombienet 
-
-- **Estimated duration:**
-- **FTE:**
+- **Estimated duration:** 
+- **FTE:** 
 - **Costs:** 
-
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -158,12 +174,11 @@ Previously funded Web3 Foundation grant:
 | 4. | Explorer deployment package | This contains package definitions for deploying Polkadot.JS Explorer |
 | 5. | Prometheus and Grafana package | This package will include Custom Parachain build package for Metrics and observability |
 
-
 ### Milestone 3  — R&D for Bridge, One click Node deployment and Custom Parachain build package
 
-- **Estimated duration:**
-- **FTE:**
-- **Costs:** 
+- **Estimated duration:** 4 weeks
+- **FTE:** 3
+- **Costs:** 17,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -174,7 +189,7 @@ Previously funded Web3 Foundation grant:
 | **0e.** | Article | We will write a Medium article that explains the work done as part of the grant |
 | 1. | R&D for Bridge Setup |  Research and Documentation for packages for bridge setup |
 | 2. | R&D for One click Node deployment | Research and Documentation to enable one click deployment for Collators, Parachains and Validators |
-| 3. | R&D for Custom Parachain build package | Research and Documentation to create a build package to build images for parachains by injecting the binaries | 
+| 3. | R&D for Custom Parachain build package | Research and Documentation to create a build package to build images for parachains by injecting the binaries |
 
 ## Future Plans
 
