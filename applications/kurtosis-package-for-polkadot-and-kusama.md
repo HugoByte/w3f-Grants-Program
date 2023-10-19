@@ -112,6 +112,7 @@ Kurtosis aims to bring DevOps back, by providing the developer with a single pla
 - Shanith K K (System Developer)
 - Abhishek Harde (System Developer)
 - Hemanth Kumar (Senior Tester)
+- Principal Engineer
 
 ### Contact
 
@@ -148,7 +149,7 @@ Hugobyte is here to simplify your Web 3.0 journey. We provide user-friendly tool
 As a Senior Principal Engineer and CEO at Hugobyte Network Labs with over 7 years of invaluable experience, Muhammed Irfan possesses exceptional expertise in multiple domains such as Blockchain and AI. He is also highly proficient in designing state-of-the-art architecture and infrastructure, as well as mastering full-stack development.
 
 - **Shreyas K S - Senior Developer**
-With over 5 years of professional experience, Shreyas currently serves as the Development Tech Lead with the designation of Senior Systems Developer at HugoByte AI Labs Pvt Ltd. As a core developer and Tech Lead, Shreyas played a pivotal role in the rollout of the kurtosis package for Icon, ETH, hardhat, and BTP. His extensive contributions to open-source communities are notably highlighted by his significant involvement in projects like Icon-Ibc and DIVE.
+With over 5 years of professional experience, Shreyas currently serves as the Development Tech Lead with the designation of Senior Systems Developer at HugoByte As a core developer and Tech Lead, Shreyas played a pivotal role in the rollout of the kurtosis package for Icon, ETH, hardhat, and BTP. His extensive contributions to open-source communities are notably highlighted by his significant involvement in projects like Icon-Ibc and DIVE.
 
 Skill-wise, Shreyas is proficient in Rust, Golang, Python, and Starlark. His technological expertise encompasses Blockchain, Smart Contract Development, Workflow Orchestration, and Database Management. Shreyas possesses a deep understanding of blockchain, smart contracts, and is adept in various workflow orchestration tools. His experiences have shaped him into a collaborative team player and a decisive leader, known for consistently guiding projects to successful completion. Driven by a passion to employ technology in solving intricate problems, Shreyas remains eager to contribute further to the dynamic world of tech.
 
