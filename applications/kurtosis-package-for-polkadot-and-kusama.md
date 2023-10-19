@@ -16,6 +16,8 @@ This project aims to implement environment definitions through [Kurtosis package
 
 - [Kurtosis](https://docs.kurtosis.com/): Kurtosis is a platform for packaging and launching environments of containerized services ("distributed applications") with a focus on approachability for the average developer. What Docker did for shipping binaries, Kurtosis aims to do even better for distributed applications.
 - [Starlark](https://docs.kurtosis.com/starlark-reference): Starlark is a dialect of Python intended for use as a configuration language. Starlark is used as DSL for creating environment definitions in Kurtosis which helps in sharing and reusing distributed application components.
+- [Docker](https://docs.docker.com/):
+Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 
 #### Supporting Implementations
 
@@ -30,6 +32,49 @@ This project aims to implement environment definitions through [Kurtosis package
 | 2      | Package for Chopstick                                                                          |
 | 3      | Kurtosis provider for Zombienet                                                                |
 | 4      | Explorer package                                                                               |
+| 5      | Prometheus and Grafana package|                                                                               |
+
+##### Chain List
+
+| **Number** | **Parachain** | **Relay chain** | **Image** |
+|---|---|---|---|
+| 1 | Acala | Polkadot | <https://hub.docker.com/u/acala> |
+| 2 | Ajuna Network | Polkadot | <https://hub.docker.com/r/ajuna/parachain-ajuna> |
+| 3 | Aventus | Polkadot | <https://github.com/Aventus-Network-Services/avn-parachain> |
+| 4 | Bifrost | Polkadot | bifrostnetwork/bifrost:bifrost-v0.9.66 |
+| 5 | Bitgreen | Polkadot | bifrostnetwork/bifrost:bifrost-v0.9.66 |
+| 6 | Centrifuge | Polkadot | <https://hub.docker.com/u/centrifugeio> |
+| 7 | Clover | Polkadot | <https://hub.docker.com/search?q=cloverio> |
+| 8 | Frequency | Polkadot | <https://hub.docker.com/u/frequencychain> |
+| 9 | Integritee Shell | Polkadot | <https://hub.docker.com/r/integritee> |
+| 10 | Interlay | Polkadot | <https://hub.docker.com/r/interlayhq/interbtc> |
+| 11 | KILT Spiritnet | Polkadot | <https://hub.docker.com/r/kiltprotocol/mashnet-node> |
+| 12 | Kylin | Polkadot | <https://hub.docker.com/r/kylinnetworks/kylin-collator> |
+| 13 | Litentry | Polkadot | <https://hub.docker.com/r/litentry/litentry-parachain> |
+| 14 | Manta | Polkadot | <https://hub.docker.com/r/mantanetwork/manta> |
+| 15 | Moonbeam | Polkadot | <https://hub.docker.com/r/moonbeamfoundation/moonbeam> |
+| 16 | Moonsama | Polkadot | <https://hub.docker.com/r/moonsama/moonsama-node> |
+| 17 | Nodle | Polkadot | <https://hub.docker.com/r/nodlecode/chain> |
+| 18 | Parallel | Polkadot | <https://hub.docker.com/u/parallelfinance> |
+| 19 | Pendulum | Polkadot | <https://hub.docker.com/r/pendulumchain/pendulum-collator> |
+| 20 | Phala Network | Polkadot | <https://hub.docker.com/r/phalanetwork/phala-node> |
+| 21 | Polkadex | Polkadot | <https://hub.docker.com/r/polkadex/parachain> |
+| 22 | Subsocial | Polkadot | <https://hub.docker.com/r/dappforce/subsocial-parachain> |
+| 23 | Zeitgeist | Polkadot | <https://hub.docker.com/r/zeitgeistpm/zeitgeist-node> |
+| 24 | Encointer Network | Kusama | <https://hub.docker.com/r/encointer/parachain> |
+| 25 | Altair | Kusama | <https://hub.docker.com/r/centrifugeio/centrifuge-chain> |
+| 26 | Bajun Network | Kusama | <https://hub.docker.com/r/ajuna/parachain-ajuna> |
+| 27 | Bifrost | Kusama | bifrostnetwork/bifrost:bifrost-v0.9.66 |
+| 28 | Calamari | Kusama | <https://hub.docker.com/r/mantanetwork/calamari> |
+| 29 | Karura | Kusama | acala/karura-node:2.11.0 |
+| 30 | Khala Network | Kusama | <https://hub.docker.com/r/phalanetwork/khala-node> |
+| 31 | Kintsugi BTC | Kusama | interlayhq/interbtc:1.25.0-rc5 |
+| 32 | Litmus | Kusama | <https://hub.docker.com/r/litentry/litentry-parachain> |
+| 33 | Mangata | Kusama | <https://hub.docker.com/r/mangatasolutions/mangata-node> |
+| 34 | Moonriver | Kusama | <https://hub.docker.com/r/moonbeamfoundation/moonbeam> |
+| 35 | Robonomics | Kusama | <https://hub.docker.com/r/robonomics/robonomics> |
+| 36 | subzero | Kusama | <https://hub.docker.com/r/playzero/subzero> |
+| 37 | Turing Network | Kusama | <https://hub.docker.com/r/oaknetwork/turing> |
 
 ### Ecosystem Fit
 
@@ -81,22 +126,40 @@ Kurtosis aims to bring DevOps back, by providing the developer with a single pla
 
 ### Team's experience
 
-HugoByte is deeply rooted in the Web 3 domain with strong experience in creating bridges and web 3 development utilities.
+Hugobyte is your go-to expert for all things Web 3.0. We specialize in creating tools and solutions that simplify Web 3.0 development and bring it closer to reality.
 
-- ****Muhammed Irfan - Principle Engineer****
-As a Senior Principal Engineer and CTO at Hugobyte with over 7 years of invaluable experience, Muhammed Irfan possesses exceptional expertise in multiple domains such as Blockchain and AI. He is also highly proficient in designing state-of-the-art architecture and infrastructure, as well as mastering full-stack development.
+Our Key Products:
+
+1. **DIVE - One-Click Deployment:** DIVE is a user-friendly tool that makes it incredibly easy to set up nodes, bridges, and contracts for your blockchain projects. It's like the "easy" button for Web 3.0. Plus, it supports cross-chain development, ensuring your projects can work seamlessly on different blockchains.
+
+2. **Aurras - Notifications and Automation:** Aurras is your solution for managing push notifications and automating workflows in decentralized systems. It's perfect for projects that need to keep everyone in the loop, with support for cross-chain notifications and automated payouts on Polkadot.
+
+Our Principles:
+
+- **Open Source Advocacy:** We believe in sharing and collaboration. Our code is open source, which means you can access it and contribute to its growth.
+
+- **Interoperability Experts:** We're all about making different blockchains work together. Our solutions are built with interoperability in mind, ensuring your projects can communicate with other networks effortlessly.
+
+- **Web 3.0 Innovators:** We're always on the cutting edge, pushing the boundaries of what's possible in the Web 3.0 world. Our team is committed to making the decentralized future a reality.
+
+Hugobyte is here to simplify your Web 3.0 journey. We provide user-friendly tools and solutions, follow open source principles, and excel at making different blockchains work together.
+
+- **Muhammed Irfan - Principle Engineer**
+As a Senior Principal Engineer and CEO at Hugobyte Network Labs with over 7 years of invaluable experience, Muhammed Irfan possesses exceptional expertise in multiple domains such as Blockchain and AI. He is also highly proficient in designing state-of-the-art architecture and infrastructure, as well as mastering full-stack development.
 
 - **Shreyas K S - Senior Developer**
-As a Senior Developer with over 4 years of experience in Rust and GoLang, he is also knowledgeable in Starlark, Python, C#, and C. Core developer and Tech Lead for implementation of kurtosis package for Icon, ETH ,hardhat and BTP.
+With over 5 years of professional experience, Shreyas currently serves as the Development Tech Lead with the designation of Senior Systems Developer at HugoByte AI Labs Pvt Ltd. As a core developer and Tech Lead, Shreyas played a pivotal role in the rollout of the kurtosis package for Icon, ETH, hardhat, and BTP. His extensive contributions to open-source communities are notably highlighted by his significant involvement in projects like Icon-Ibc and DIVE.
+
+Skill-wise, Shreyas is proficient in Rust, Golang, Python, and Starlark. His technological expertise encompasses Blockchain, Smart Contract Development, Workflow Orchestration, and Database Management. Shreyas possesses a deep understanding of blockchain, smart contracts, and is adept in various workflow orchestration tools. His experiences have shaped him into a collaborative team player and a decisive leader, known for consistently guiding projects to successful completion. Driven by a passion to employ technology in solving intricate problems, Shreyas remains eager to contribute further to the dynamic world of tech.
 
 - **Abhishek Harde - System Developer**
-As a System Developer with over 2+ years of experience in Rust and GoLang, he is also knowledgeable in Starlark, C# and C++. Core developer for implementation of kurtosis package for Archway, Neuton and IBC.
+I am a system developer with over two years of experience in creating reliable and scalable software solutions using Rust, GoLang, Starlark, C#, and C++. I currently work at Hugobyte, where I contribute to the DIVE project, a CLI tool that streamlines and simplifies the process of blockchain development. I have also implemented the kurtosis package for setting up nodes for Archway, Neuton, and IBC relay. Previously, I worked as a .NET core developer , where I developed web applications and APIs using ASP.NET Core, Entity Framework Core, and Azure . I am passionate about blockchain technology and its applications in various domains. I am always eager to learn new technologies and tools that can improve my skills and knowledge.
 
 - **Shanith K K - System Developer**
-As a System Developer with over 2+ years of experience in Rust and Javascript, he is also knowledgeable in Python and Starlark. Core developer for Aurras MVP Phase 2.
+I am a system developer with over 2+ years of experience in programming languages such as Rust, Python, Starlark, and JavaScript. I have handled on innovative projects like Aurras and D.I.V.E at Hugobyte. I have also gained valuable experience working with the Polkadot ecosystem and exploring various blockchains like NEAR and ICON. I enjoy mentoring junior developers to achieve excellent outcomes, contributing to the growth and development of the team. I have won the xCall incentive program conducted by ICON and also worked as a focus tester for the xCall focus tester program. These experiences have provided me with a deep understanding of the ICON ecosystem and made me a respected DAO iconist. My passion for development fuels my continuous learning of new technologies and advancements in the field, ensuring that I stay up-to-date with industry trends and best practices, ultimately resulting in high-quality outcomes.
 
 - **Hemanth Kumar - Senior Tester**
-He is senior tester with over 8 years of experience in testing, skilled in manual, automation, end-to-end, and integration testing. Additionally, they are proficient in Golang, Java, and Python.
+I am a  senior tester with more than nine years of dedicated experience, specializing in the intricate realms of automation, end-to-end (E2E), manual and integration testing. One of my notable accomplishments includes the development of a customized E2E testing framework tailored to the exacting requirements of IBC message transfers across a diverse array of blockchain ecosystems. This innovation ensures the seamless and uninterrupted flow of critical data between blockchain networks. With a well-documented track record in scrutinizing smart contracts on multiple blockchain platforms, I exhibit a consummate command of programming languages such as Python, Golang, and Typescript, thus enhancing the finesse of test automation and development. My proficiency also extends to writing automation testing scripts for GitHub, which underpins my commitment to streamlined processes and the unwavering pursuit of code quality. Beyond these technical achievements, my considerable exposure to the intricacies of the Polkadot ecosystem further underscores my commitment to the dynamic field of blockchain testing and the pursuit of seamless interoperability strategies.
 
 Previously funded Web3 Foundation grant:
 
@@ -131,17 +194,17 @@ Previously funded Web3 Foundation grant:
 
 ## Development Roadmap :nut_and_bolt:
 
-### Overview
+### Milestone Overview
 
-- **Total Estimated Duration:**
-- **Full-Time Equivalent (FTE):**
-- **Total Costs:**
+- **Total Estimated Duration:** 9-10 weeks
+- **Full-Time Equivalent (FTE):** 3
+- **Total Costs:** 46,000 USD
 
 ### Milestone 1 — Kurtosis Package for Localnet, Testnet and Mainnet setup
 
 - **Estimated duration:** 4 weeks
-- **FTE:** 3
-- **Costs:** 17,000 USD
+- **FTE:** 3 ( System Engineer (2) + Project Manger (0.5) + Lead Developer (0.5))
+- **Costs:** 18,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -158,27 +221,27 @@ Previously funded Web3 Foundation grant:
 
 ### Milestone 2  — Kurtosis Package for chopstick, Explorer, Prometheus, Grafana and Integration with Zombienet
 
-- **Estimated duration:**
-- **FTE:**
-- **Costs:**
+- **Estimated duration:** 3 weeks
+- **FTE:** 3.5 (Principle Engineer (1) + System Engineer (1) + Project Manger (0.5) + Tester (1))
+- **Costs:** 19,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 |
-| **0b.** | Documentation | We will provide the following documentation: Inline Code Documentation, Readme file, Configuration Documentation, Usage Documentation |
+| **0b.** | Documentation | We will provide the following documentation: Inline Code Documentation, Readme.md file, Configuration Documentation, Usage Documentation |
 | **0c.** | Testing and Testing Guide | We will compose a testing guide to describe how to run tests. The code will have unit-test coverage (min. 50%) to ensure functionality and robustness |
 | **0d.** | Docker | N/A as this is a package definition which will be executed through Kurtosis CLI |
 | 1. | Package for Chopstick | This package contains definitions to deploy chopstick |
 | 2. | Kurtosis provider for Zombienet | This will be created as PR to enable to use Kurtosis as one of the provider to use above packages for deployment |
 | 3. | Test Script for message testing | This will be robust test script to run automated test using the above packages |
 | 4. | Explorer deployment package | This contains package definitions for deploying Polkadot.JS Explorer |
-| 5. | Prometheus and Grafana package | This package will include Custom Parachain build package for Metrics and observability |
+| 5. | Prometheus and Grafana package | This package will include Prometheus and Grafana package for Metrics and observability |
 
 ### Milestone 3  — R&D for Bridge, One click Node deployment and Custom Parachain build package
 
-- **Estimated duration:** 4 weeks
-- **FTE:** 3
-- **Costs:** 17,000 USD
+- **Estimated duration:** 2 weeks
+- **FTE:** 1.5 (Principle Engineer (1) + Project Manager (0.5) )
+- **Costs:** 9,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
