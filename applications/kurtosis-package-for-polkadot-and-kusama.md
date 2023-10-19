@@ -21,12 +21,12 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 #### Supporting Implementations
 
-- [D.I.V.E](https://github.com/HugoByte/DIVE): A powerful utility designed to streamline the entire process of node setup, network configurations, smart contract build and deployment currently supporting Ethereum, Cosmos and ICON.
+- [D.I.V.E](https://github.com/HugoByte/DIVE): A powerful toolkit designed to streamline the entire process of node setup, network configurations, smart contract build and deployment currently supporting Ethereum, Cosmos and ICON ecosystems.
 - [POC](https://github.com/HugoByte/PoCs/tree/master/polkadot-kurtosis-poc): A minimal kurtosis package able to deploy a single node of westend and local relay chain with single parachain.
 
 #### Components
 
-| Sr. No | Items                                                                                          |
+| Number | Components                                                                                          |
 |--------|------------------------------------------------------------------------------------------------|
 | 1      | Packages for Localnet, Testnet and Mainnet set up for Polkadot, Kusama and multiple parachains |
 | 2      | Package for Chopstick                                                                          |
@@ -36,7 +36,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 ##### Chain List
 
-| **Number** | **Parachain** | **Relay chain** | **Image** |
+| Number | Parachain | Relay Chain | Image |
 |---|---|---|---|
 | 1 | Acala | Polkadot | <https://hub.docker.com/u/acala> |
 | 2 | Ajuna Network | Polkadot | <https://hub.docker.com/r/ajuna/parachain-ajuna> |
@@ -127,40 +127,39 @@ Kurtosis aims to bring DevOps back, by providing the developer with a single pla
 
 ### Team's experience
 
-Hugobyte is your go-to expert for all things Web 3.0. We specialize in creating tools and solutions that simplify Web 3.0 development and bring it closer to reality.
+HugoByte is the go-to expert for all things Web 3.0. We specialize in creating tools and solutions that simplify Web 3.0 development and bring it closer to reality.
 
 Our Key Products:
 
 1. **DIVE - One-Click Deployment:** DIVE is a user-friendly tool that makes it incredibly easy to set up nodes, bridges, and contracts for your blockchain projects. It's like the "easy" button for Web 3.0. Plus, it supports cross-chain development, ensuring your projects can work seamlessly on different blockchains.
 
-2. **Aurras - Notifications and Automation:** Aurras is your solution for managing push notifications and automating workflows in decentralized systems. It's perfect for projects that need to keep everyone in the loop, with support for cross-chain notifications and automated payouts on Polkadot.
+2. **Aurras - Notifications and Automation:** Aurras a low-code workflow orchestration platform that is decentralized systems. It's perfect for projects that need to keep everyone in the loop, with support for cross-chain notifications and automated payouts on Polkadot.
 
 Our Principles:
 
-- **Open Source Advocacy:** We believe in sharing and collaboration. Our code is open source, which means you can access it and contribute to its growth.
+- **Open Source Advocacy:** We believe in sharing and collaboration. Our code is open source, which means community can access it and contribute to its growth.
 
-- **Interoperability Experts:** We're all about making different blockchains work together. Our solutions are built with interoperability in mind, ensuring your projects can communicate with other networks effortlessly.
+- **Interoperability Experts:** We're all about making different blockchains work together. Our solutions are built with interoperability in mind, ensuring all projects can communicate with multiple networks effortlessly.
 
 - **Web 3.0 Innovators:** We're always on the cutting edge, pushing the boundaries of what's possible in the Web 3.0 world. Our team is committed to making the decentralized future a reality.
 
-Hugobyte is here to simplify your Web 3.0 journey. We provide user-friendly tools and solutions, follow open source principles, and excel at making different blockchains work together.
+HugoByte is here to simplify the Web 3.0 journey. We provide user-friendly tools and solutions, follow open source principles, and excel at making different blockchains work together.
 
-- **Muhammed Irfan - Principle Engineer**
-As a Senior Principal Engineer and CEO at Hugobyte Network Labs with over 7 years of invaluable experience, Muhammed Irfan possesses exceptional expertise in multiple domains such as Blockchain and AI. He is also highly proficient in designing state-of-the-art architecture and infrastructure, as well as mastering full-stack development.
+- **Muhammed Irfan - CEO**
+As a Solutions architect and CEO at HugoByte Network Labs with 10+ years of invaluable industry experience, Muhammed Irfan possesses exceptional expertise in multiple domains such as Web3, Blockchain, Interoperability Solutions, Enterprise, Infrastructure and AI. He is also highly proficient in designing state-of-the-art architecture and infrastructure, as well as mastering full-stack development.
 
 - **Shreyas K S - Senior Developer**
-With over 5 years of professional experience, Shreyas currently serves as the Development Tech Lead with the designation of Senior Systems Developer at HugoByte As a core developer and Tech Lead, Shreyas played a pivotal role in the rollout of the kurtosis package for Icon, ETH, hardhat, and BTP. His extensive contributions to open-source communities are notably highlighted by his significant involvement in projects like Icon-Ibc and DIVE.
-
+He has 5 years of professional experience, Shreyas currently serves as the Development Tech Lead with the designation of Senior Systems Developer at HugoByte as a core developer and Tech Lead, Shreyas played a pivotal role in the rollout of the kurtosis package for Icon, ETH, hardhat, and BTP. His extensive contributions to open-source communities are notably highlighted by his significant involvement in projects like ICON IBC-Integration and DIVE.
 Skill-wise, Shreyas is proficient in Rust, Golang, Python, and Starlark. His technological expertise encompasses Blockchain, Smart Contract Development, Workflow Orchestration, and Database Management. Shreyas possesses a deep understanding of blockchain, smart contracts, and is adept in various workflow orchestration tools. His experiences have shaped him into a collaborative team player and a decisive leader, known for consistently guiding projects to successful completion. Driven by a passion to employ technology in solving intricate problems, Shreyas remains eager to contribute further to the dynamic world of tech.
 
 - **Abhishek Harde - System Developer**
-I am a system developer with over two years of experience in creating reliable and scalable software solutions using Rust, GoLang, Starlark, C#, and C++. I currently work at Hugobyte, where I contribute to the DIVE project, a CLI tool that streamlines and simplifies the process of blockchain development. I have also implemented the kurtosis package for setting up nodes for Archway, Neuton, and IBC relay. Previously, I worked as a .NET core developer , where I developed web applications and APIs using ASP.NET Core, Entity Framework Core, and Azure . I am passionate about blockchain technology and its applications in various domains. I am always eager to learn new technologies and tools that can improve my skills and knowledge.
+He is a system developer with over two years of experience in creating reliable and scalable software solutions using Rust, GoLang, Starlark, C#, and C++. As a part of HugoByte, he majorly contributes to the DIVE project development. He has also implemented the kurtosis package for setting up nodes for Archway, Neutron, and IBC relay. Previously, he has experience as a .NET core developer, where he developed web applications and APIs using ASP.NET Core, Entity Framework Core, and Azure. He is passionate about blockchain technology and its applications in various domains. He is always eager to learn new technologies and tools that can improve his skills and knowledge.
 
 - **Shanith K K - System Developer**
-I am a system developer with over 2+ years of experience in programming languages such as Rust, Python, Starlark, and JavaScript. I have handled on innovative projects like Aurras and D.I.V.E at Hugobyte. I have also gained valuable experience working with the Polkadot ecosystem and exploring various blockchains like NEAR and ICON. I enjoy mentoring junior developers to achieve excellent outcomes, contributing to the growth and development of the team. I have won the xCall incentive program conducted by ICON and also worked as a focus tester for the xCall focus tester program. These experiences have provided me with a deep understanding of the ICON ecosystem and made me a respected DAO iconist. My passion for development fuels my continuous learning of new technologies and advancements in the field, ensuring that I stay up-to-date with industry trends and best practices, ultimately resulting in high-quality outcomes.
+He is a system developer with over 2+ years of experience in programming languages such as Rust, Python, Starlark, and JavaScript. He has handled innovative projects like Aurras and D.I.V.E at HugoByte. He has also gained valuable experience working with the Polkadot ecosystem and exploring various blockchains like NEAR and ICON. He enjoys mentoring junior developers to achieve excellent outcomes, contributing to the growth and development of the team. With his contribution as the primary developer, HugoByte won the xCall incentive program conducted by ICON and also worked as a focus tester for the xCall focus tester program. These experiences have provided him with a deep understanding of the ICON ecosystem and made him a respected DAO Iconist. His passion for development fuels his continuous learning of new technologies and advancements in the field, ensuring that he stays up-to-date with industry trends and best practices, ultimately resulting in high-quality outcomes.
 
 - **Hemanth Kumar - Senior Tester**
-I am a  senior tester with more than nine years of dedicated experience, specializing in the intricate realms of automation, end-to-end (E2E), manual and integration testing. One of my notable accomplishments includes the development of a customized E2E testing framework tailored to the exacting requirements of IBC message transfers across a diverse array of blockchain ecosystems. This innovation ensures the seamless and uninterrupted flow of critical data between blockchain networks. With a well-documented track record in scrutinizing smart contracts on multiple blockchain platforms, I exhibit a consummate command of programming languages such as Python, Golang, and Typescript, thus enhancing the finesse of test automation and development. My proficiency also extends to writing automation testing scripts for GitHub, which underpins my commitment to streamlined processes and the unwavering pursuit of code quality. Beyond these technical achievements, my considerable exposure to the intricacies of the Polkadot ecosystem further underscores my commitment to the dynamic field of blockchain testing and the pursuit of seamless interoperability strategies.
+He is a senior tester with more than nine years of dedicated experience, specializing in the intricate realms of automation, end-to-end (E2E), manual, and integration testing. One of his notable accomplishments includes the development of a customized E2E testing framework tailored to the exacting requirements of IBC message transfers across a diverse array of blockchain ecosystems. This innovation ensures the seamless and uninterrupted flow of critical data between blockchain networks. With a well-documented track record in scrutinizing smart contracts on multiple blockchain platforms, he exhibits a consummate command of programming languages such as Python, Golang, and Typescript, thus enhancing the finesse of test automation and development. His proficiency also extends to writing automation testing scripts for GitHub, which underpins his commitment to streamlined processes and the unwavering pursuit of code quality. Beyond these technical achievements, his considerable exposure to the intricacies of the Polkadot ecosystem further underscores his commitment to the dynamic field of blockchain testing and the pursuit of seamless interoperability strategies.
 
 Previously funded Web3 Foundation grant:
 
@@ -204,7 +203,7 @@ Previously funded Web3 Foundation grant:
 ### Milestone 1 — Kurtosis Package for Localnet, Testnet and Mainnet setup
 
 - **Estimated duration:** 4 weeks
-- **FTE:** 3 ( System Engineer (2) + Project Manger (0.5) + Lead Developer (0.5))
+- **FTE:** 3 (System Engineer (2) + Project Manger (0.5) + Lead Developer (0.5))
 - **Costs:** 18,000 USD
 
 | Number | Deliverable | Specification |
