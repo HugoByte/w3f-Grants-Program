@@ -26,7 +26,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 #### Components
 
-| Number | Components                                                                                          |
+| Number | Component                                                                                          |
 |--------|------------------------------------------------------------------------------------------------|
 | 1      | Packages for Localnet, Testnet and Mainnet set up for Polkadot, Kusama and multiple parachains |
 | 2      | Package for Chopstick                                                                          |
@@ -36,45 +36,43 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 ##### Chain List
 
-| Number | Parachain | Relay Chain | Image |
-|---|---|---|---|
-| 1 | Acala | Polkadot | <https://hub.docker.com/u/acala> |
-| 2 | Ajuna Network | Polkadot | <https://hub.docker.com/r/ajuna/parachain-ajuna> |
-| 3 | Aventus | Polkadot | <https://github.com/Aventus-Network-Services/avn-parachain> |
-| 4 | Bifrost | Polkadot | bifrostnetwork/bifrost:bifrost-v0.9.66 |
-| 5 | Bitgreen | Polkadot | bifrostnetwork/bifrost:bifrost-v0.9.66 |
-| 6 | Centrifuge | Polkadot | <https://hub.docker.com/u/centrifugeio> |
-| 7 | Clover | Polkadot | <https://hub.docker.com/search?q=cloverio> |
-| 8 | Frequency | Polkadot | <https://hub.docker.com/u/frequencychain> |
-| 9 | Integritee Shell | Polkadot | <https://hub.docker.com/r/integritee> |
-| 10 | Interlay | Polkadot | <https://hub.docker.com/r/interlayhq/interbtc> |
-| 11 | KILT Spiritnet | Polkadot | <https://hub.docker.com/r/kiltprotocol/mashnet-node> |
-| 12 | Kylin | Polkadot | <https://hub.docker.com/r/kylinnetworks/kylin-collator> |
-| 13 | Litentry | Polkadot | <https://hub.docker.com/r/litentry/litentry-parachain> |
-| 14 | Manta | Polkadot | <https://hub.docker.com/r/mantanetwork/manta> |
-| 15 | Moonbeam | Polkadot | <https://hub.docker.com/r/moonbeamfoundation/moonbeam> |
-| 16 | Moonsama | Polkadot | <https://hub.docker.com/r/moonsama/moonsama-node> |
-| 17 | Nodle | Polkadot | <https://hub.docker.com/r/nodlecode/chain> |
-| 18 | Parallel | Polkadot | <https://hub.docker.com/u/parallelfinance> |
-| 19 | Pendulum | Polkadot | <https://hub.docker.com/r/pendulumchain/pendulum-collator> |
-| 20 | Phala Network | Polkadot | <https://hub.docker.com/r/phalanetwork/phala-node> |
-| 21 | Polkadex | Polkadot | <https://hub.docker.com/r/polkadex/parachain> |
-| 22 | Subsocial | Polkadot | <https://hub.docker.com/r/dappforce/subsocial-parachain> |
-| 23 | Zeitgeist | Polkadot | <https://hub.docker.com/r/zeitgeistpm/zeitgeist-node> |
-| 24 | Encointer Network | Kusama | <https://hub.docker.com/r/encointer/parachain> |
-| 25 | Altair | Kusama | <https://hub.docker.com/r/centrifugeio/centrifuge-chain> |
-| 26 | Bajun Network | Kusama | <https://hub.docker.com/r/ajuna/parachain-ajuna> |
-| 27 | Bifrost | Kusama | bifrostnetwork/bifrost:bifrost-v0.9.66 |
-| 28 | Calamari | Kusama | <https://hub.docker.com/r/mantanetwork/calamari> |
-| 29 | Karura | Kusama | acala/karura-node:2.11.0 |
-| 30 | Khala Network | Kusama | <https://hub.docker.com/r/phalanetwork/khala-node> |
-| 31 | Kintsugi BTC | Kusama | interlayhq/interbtc:1.25.0-rc5 |
-| 32 | Litmus | Kusama | <https://hub.docker.com/r/litentry/litentry-parachain> |
-| 33 | Mangata | Kusama | <https://hub.docker.com/r/mangatasolutions/mangata-node> |
-| 34 | Moonriver | Kusama | <https://hub.docker.com/r/moonbeamfoundation/moonbeam> |
-| 35 | Robonomics | Kusama | <https://hub.docker.com/r/robonomics/robonomics> |
-| 36 | subzero | Kusama | <https://hub.docker.com/r/playzero/subzero> |
-| 37 | Turing Network | Kusama | <https://hub.docker.com/r/oaknetwork/turing> |
+| Number | Parachain      | Relay Chain | Image                                                        |
+|--------|----------------|-------------|--------------------------------------------------------------|
+| 1      | Acala          | Polkadot    | <https://hub.docker.com/r/acala/acala-node>                             |
+| 2      | Ajuna Network  | Polkadot    | <https://hub.docker.com/r/ajuna/parachain-ajuna>             |
+| 3      | Bifrost        | Polkadot    | <https://hub.docker.com/r/bifrostnetwork/bifrost>            |
+| 4      | Centrifuge     | Polkadot    | <https://hub.docker.com/r/centrifugeio/centrifuge-chain>                      |
+| 5      | Clover         | Polkadot    | <https://hub.docker.com/u/cloverio>                          |
+| 6      | Frequency      | Polkadot    | <https://hub.docker.com/u/frequencychain>                    |
+| 7      | Integritee Shell | Polkadot  | <https://hub.docker.com/r/integritee>                       |
+| 8      | Interlay       | Polkadot    | <https://hub.docker.com/r/interlayhq/interbtc>               |
+| 9      | KILT Spiritnet | Polkadot    | <https://hub.docker.com/r/kiltprotocol/mashnet-node>        |
+| 10     | Kylin          | Polkadot    | <https://hub.docker.com/r/kylinnetworks/kylin-collator>     |
+| 11     | Litentry       | Polkadot    | <https://hub.docker.com/r/litentry/litentry-parachain>      |
+| 12     | Manta          | Polkadot    | <https://hub.docker.com/r/mantanetwork/manta>               |
+| 13     | Moonbeam       | Polkadot    | <https://hub.docker.com/r/moonbeamfoundation/moonbeam>      |
+| 14     | Moonsama       | Polkadot    | <https://hub.docker.com/r/moonsama/moonsama-node>           |
+| 15     | Nodle          | Polkadot    | <https://hub.docker.com/r/nodlecode/chain>                  |
+| 16     | Parallel       | Polkadot    | <https://hub.docker.com/u/parallelfinance>                   |
+| 17     | Pendulum       | Polkadot    | <https://hub.docker.com/r/pendulumchain/pendulum-collator>  |
+| 18     | Phala Network  | Polkadot    | <https://hub.docker.com/r/phalanetwork/phala-node>          |
+| 19     | Polkadex       | Polkadot    | <https://hub.docker.com/r/polkadex/parachain>               |
+| 20     | Subsocial      | Polkadot    | <https://hub.docker.com/r/dappforce/subsocial-parachain>    |
+| 21     | Zeitgeist      | Polkadot    | <https://hub.docker.com/r/zeitgeistpm/zeitgeist-node>       |
+| 22     | Encointer Network | Kusama   | <https://hub.docker.com/r/encointer/parachain>              |
+| 23     | Altair         | Kusama      | <https://hub.docker.com/r/centrifugeio/centrifuge-chain>    |
+| 24     | Bajun Network  | Kusama      | <https://hub.docker.com/r/ajuna/parachain-ajuna>            |
+| 25     | Bifrost        | Kusama      | <https://hub.docker.com/r/bifrostnetwork/bifrost>           |
+| 26     | Calamari       | Kusama      | <https://hub.docker.com/r/mantanetwork/calamari>            |
+| 27     | Karura         | Kusama      | <https://hub.docker.com/r/acala/karura-node>                |
+| 28     | Khala Network  | Kusama      | <https://hub.docker.com/r/phalanetwork/khala-node>          |
+| 29     | Kintsugi BTC   | Kusama      | <https://hub.docker.com/r/interlayhq/interbtc>              |
+| 30     | Litmus         | Kusama      | <https://hub.docker.com/r/litentry/litentry-parachain>      |
+| 31     | Mangata        | Kusama      | <https://hub.docker.com/r/mangatasolutions/mangata-node>    |
+| 32     | Moonriver      | Kusama      | <https://hub.docker.com/r/moonbeamfoundation/moonbeam>      |
+| 33     | Robonomics      | Kusama      | <https://hub.docker.com/r/robonomics/robonomics>            |
+| 34     | subzero        | Kusama      | <https://hub.docker.com/r/playzero/subzero>                 |
+| 35     | Turing Network | Kusama      | <https://hub.docker.com/r/oaknetwork/turing>                |
 
 ### Ecosystem Fit
 
