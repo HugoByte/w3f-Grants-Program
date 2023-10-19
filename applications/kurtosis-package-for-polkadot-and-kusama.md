@@ -17,7 +17,7 @@ This project aims to implement environment definitions through [Kurtosis package
 - [Kurtosis](https://docs.kurtosis.com/): Kurtosis is a platform for packaging and launching environments of containerized services ("distributed applications") with a focus on approachability for the average developer. What Docker did for shipping binaries, Kurtosis aims to do even better for distributed applications.
 - [Starlark](https://docs.kurtosis.com/starlark-reference): Starlark is a dialect of Python intended for use as a configuration language. Starlark is used as DSL for creating environment definitions in Kurtosis which helps in sharing and reusing distributed application components.
 
-#### Supporting Implementations hhh
+#### Supporting Implementations
 
 - [D.I.V.E](https://github.com/HugoByte/DIVE): A powerful utility designed to streamline the entire process of node setup, network configurations, smart contract build and deployment currently supporting Ethereum, Cosmos and ICON.
 - [POC](https://github.com/HugoByte/PoCs/tree/master/polkadot-kurtosis-poc): A minimal kurtosis package able to deploy a single node of westend and local relay chain with single parachain.
@@ -158,9 +158,9 @@ Previously funded Web3 Foundation grant:
 
 ### Milestone 2  — Kurtosis Package for chopstick, Explorer, Prometheus, Grafana and Integration with Zombienet
 
-- **Estimated duration:** 
-- **FTE:** 
-- **Costs:** 
+- **Estimated duration:**
+- **FTE:**
+- **Costs:**
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
